@@ -1,0 +1,27 @@
+Detailed Algorithm:
+
+Step 1:  Input NUM
+
+Step 2:  LEN = 0 & Y=NUM
+
+Step 3:  While (Y > 0)
+
+                       HEXD[LEN]=Y%16
+
+                       Y=Y/16
+
+                       LEN++
+
+Step 4: for(I=LEN-1;I>-1;I–)
+
+                       IF(HEXD[I]<10)
+
+                                HEXC[I]=HEXD[I]+48;
+
+                       ELSE
+
+                                HEXC[I]=HEXD[I]+55;
+
+Step 5:  HEXC[I]=NULL
+
+Step 5:  Print HEXC
