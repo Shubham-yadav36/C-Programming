@@ -1,18 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
 main(){
-    int x,y;
-    printf("enter any two number : ");
-    scanf("%d%d",&x,&y);
-    void add(int,int);
-    add(x,y); // actual variable
+    int x;
+    printf("enter any  number : ");
+    scanf("%d",&x);
+    void add(int);
+    add(x); // actual variable
     getch();
 }
-void add(int a,int b)  // formal variable : call by value
+void add(int a)  // formal variable : call by value
 {
-    int sum;
-
-    sum = a+b;
-    printf("\nthe sum of %d and %d is %d",a,b,sum);
+    if(a%2==0)
+        printf("\nthe number %d is even",a);
+    else
+        printf("the number is odd");
 }
 
