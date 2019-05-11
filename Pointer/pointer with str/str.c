@@ -3,11 +3,12 @@
 {
     char name[15];
     int count(char *p);
-    char* reverse(char *p);
+    char* reverse(char *);
     printf("enter your name ; ");
     scanf("%s",&name);
     printf("%d",count(name));
-    printf("%d",reverse(name));
+    //printf("%d",reverse(name));
+    getch();
 }
 int count(char *p)
 {
