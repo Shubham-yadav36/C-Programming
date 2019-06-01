@@ -11,6 +11,7 @@ void main()
         scanf("%d",&b1.bookid);
         fflush(stdin);
         gets(b1.book_name);
+        fflush(stdin);
         scanf("%d",&b1.book_prise);
 
         printf("%d\n%s\n%d",b1.bookid,b1.book_name,b1.book_prise);

@@ -14,6 +14,7 @@ int factl(int a)
     int s,res;
     if(a==1)
         return(1);
+    else
     res = a*factl(a-1);
         return(res);
 
