@@ -1,10 +1,11 @@
-#define Square(x) 2*pow(x,2)
+#define Square(x) 3*pow(x,2)+(2*x)+3
 #include<stdio.h>
 #include<math.h>
 
 void main()
 {
-    int x = 5,Square(x);
-    printf("%d", Square(x+3));
+    int x = 5,Tot;
+    Tot = Square(x);
+    Printf("%d",tot);
     getch();
 
