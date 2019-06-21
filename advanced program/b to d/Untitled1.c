@@ -3,7 +3,7 @@
 void main()
 {
     int bin,dec = 0,i=0;
-    printf("enter a number is decimal: ");
+    printf("enter a number is binary : ");
     scanf("%d",&bin);
 
     while(bin)
