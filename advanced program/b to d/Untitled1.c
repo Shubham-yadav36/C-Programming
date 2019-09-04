@@ -8,7 +8,7 @@ void main()
 
     while(bin)
     {
-        dec = dec + pow(2,i)* (bin % 2);
+        dec = dec + pow(2,i)*(bin%2);
         bin = bin/10;
         i++;
     }
